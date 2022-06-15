@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "holberton.h"
 
 /**
  * checkPath - searches $PATH for directory of command
