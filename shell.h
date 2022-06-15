@@ -1,5 +1,5 @@
-#ifndef _SHELL_H_
-#define _SHELL_H_
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +14,6 @@
 #include <limits.h>
 
 /* ERRORS */
-
 #define BUFSIZE 256
 #define ENOSTRING 1106
 #define EILLEGAL 227
@@ -29,7 +28,6 @@ extern char **environ;
  * @string: environ variable path name
  * @next: pointer to next node
  */
-
 typedef struct linkedList
 {
 	char *string;
@@ -56,9 +54,9 @@ typedef struct configurations
 	char *buffer;
 	char *path;
 	char *fullPath;
-        char *shellName;
-        unsigned int lineCounter;
-        int errorStatus;
+	char *shellName;
+	unsigned int lineCounter;
+	int errorStatus;
 } config;
 
 /**
@@ -68,7 +66,7 @@ typedef struct configurations
  */
 typedef struct builtInCommands
 {
-        char *command;
+	char *command;
 	int (*func)(config *build);
 } type_b;
 
