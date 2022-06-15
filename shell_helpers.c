@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "holberton.h"
 
 /**
  * insertNullByte - inserts null byte at given index
