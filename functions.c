@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * _strlen - find the length of a string
- * @s: pointer to the string to check
- * Return: void
+* _strlen - find the length of a string
+* @s: pointer to the string to check
+* Return: void
 */
 
 int _strlen(const char *s)
@@ -16,13 +16,13 @@ return (i);
 }
 
 /**
- * *_strcpy -  copies the string pointed to by src
- * @dest: char type string
- * @src: char type string
- * Description: Copy the string pointed to by pointer `src` to
- * the buffer pointed to by `dest`
- * Return: Pointer to `dest`
- */
+*_strcpy -  copies the string pointed to by src
+* @dest: char type string
+* @src: char type string
+* Description: Copy the string pointed to by pointer `src` to
+* the buffer pointed to by `dest`
+* Return: Pointer to `dest`
+*/
 
 char *_strcpy(char *dest, const char *src)
 {
