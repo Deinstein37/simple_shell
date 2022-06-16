@@ -1,4 +1,5 @@
-.TH man "SIMPLE_SHELL"
+manpage for Simple_shell. Simple shell project to ALX- Holberton School.
+.TH man 1 "06 June 2022" "Simple Shell"                    "06 June 2022" "1.0" 
 .SH NAME
 .B simple_shell
 - a simple UNIX command interpreter
@@ -78,4 +79,4 @@ The primary prompt string, which defaults to “$ ”
 .SH BUGS
 .ip Expansions only work once per stdin read
 .SH AUTHOR
-Onolameh Daniel and Moses Ojo
+Written by Onolameh Daniel and Moses Ojo
