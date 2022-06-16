@@ -27,6 +27,7 @@ char *name;
 int hist;
 
 /**
+<<<<<<< HEAD
  *struct list_s - A new struct type defining a linked list.
  *@dir: A directory path.
  *@next: A pointer to another struct list_s.
@@ -38,6 +39,19 @@ int hist;
  * @next: A pointer to another struct list_s.
  */
 
+=======
+*struct list_s - A new struct type defining a linked list.
+*@dir: A directory path.
+*@next: A pointer to another struct list_s.
+*/
+ 
+/**
+* struct list_s - A new struct type defining a linked list.
+* @dir: A directory path.
+* @next: A pointer to another struct list_s.
+*/
+	 
+>>>>>>> 3642caf6ccfd560308c2af3cc40d08cf33511262
 typedef struct list_s
 {
 	char *dir;
@@ -45,6 +59,7 @@ typedef struct list_s
 } list_t;
 
 /**
+<<<<<<< HEAD
  *struct builtin_s - A new struct type defining builtin commands.
  *@name: The name of the builtin command.
  *@f: A function pointer to the builtin command's function.
@@ -55,6 +70,18 @@ typedef struct list_s
  * @name: The name of the builtin command.
  * @f: A function pointer to the builtin command's function.
  */
+=======
+*struct builtin_s - A new struct type defining builtin commands.
+*@name: The name of the builtin command.
+*@f: A function pointer to the builtin command's function.
+*/
+ 
+/**
+* struct builtin_s - A new struct type defining builtin commands.
+* @name: The name of the builtin command.
+* @f: A function pointer to the builtin command's function.
+*/
+>>>>>>> 3642caf6ccfd560308c2af3cc40d08cf33511262
 
 typedef struct builtin_s
 {
@@ -63,6 +90,7 @@ typedef struct builtin_s
 } builtin_t;
 
 /**
+<<<<<<< HEAD
  *struct alias_s - A new struct defining aliases.
  *@name: The name of the alias.
  *@value: The value of the alias.
@@ -76,6 +104,21 @@ typedef struct builtin_s
  * @next: A pointer to another struct alias_s.
  */
 
+=======
+*struct alias_s - A new struct defining aliases.
+*@name: The name of the alias.
+*@value: The value of the alias.
+*@next: A pointer to another struct alias_s.
+ */
+
+/**
+* struct alias_s - A new struct defining aliases.
+* @name: The name of the alias.
+* @value: The value of the alias.
+* @next: A pointer to another struct alias_s.
+*/
+
+>>>>>>> 3642caf6ccfd560308c2af3cc40d08cf33511262
 typedef struct alias_s
 {
 	char *name;
