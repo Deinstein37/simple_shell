@@ -16,31 +16,28 @@
 
 /* Global environemnt */
 extern char **environ;
-<<<<<<< HEAD
 
 /* Global program name */
 char *name;
 
-=======
 /* Global program name */
 char *name;
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
+
 /* Global history counter */
 int hist;
 
 /**
-<<<<<<< HEAD
  *struct list_s - A new struct type defining a linked list.
  *@dir: A directory path.
  *@next: A pointer to another struct list_s.
- **/
+ */
 
-=======
+/**
  * struct list_s - A new struct type defining a linked list.
  * @dir: A directory path.
  * @next: A pointer to another struct list_s.
  */
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
+
 typedef struct list_s
 {
 	char *dir;
@@ -48,18 +45,17 @@ typedef struct list_s
 } list_t;
 
 /**
-<<<<<<< HEAD
  *struct builtin_s - A new struct type defining builtin commands.
  *@name: The name of the builtin command.
  *@f: A function pointer to the builtin command's function.
- **/
+ */
 
-=======
+/**
  * struct builtin_s - A new struct type defining builtin commands.
  * @name: The name of the builtin command.
  * @f: A function pointer to the builtin command's function.
  */
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
+
 typedef struct builtin_s
 {
 	char *name;
@@ -67,20 +63,19 @@ typedef struct builtin_s
 } builtin_t;
 
 /**
-<<<<<<< HEAD
  *struct alias_s - A new struct defining aliases.
  *@name: The name of the alias.
  *@value: The value of the alias.
  *@next: A pointer to another struct alias_s.
- **/
+ */
 
-=======
+/**
  * struct alias_s - A new struct defining aliases.
  * @name: The name of the alias.
  * @value: The value of the alias.
  * @next: A pointer to another struct alias_s.
  */
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
+
 typedef struct alias_s
 {
 	char *name;
@@ -132,11 +127,6 @@ int shellby_cd(char **args, char __attribute__((__unused__)) **front);
 int shellby_alias(char **args, char __attribute__((__unused__)) **front);
 int shellby_help(char **args, char __attribute__((__unused__)) **front);
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
 /* Builtin Helpers */
 char **_copyenv(void);
 void free_env(void);
@@ -157,10 +147,7 @@ alias_t *add_alias_end(alias_t **head, char *name, char *value);
 void free_alias_list(alias_t *head);
 list_t *add_node_end(list_t **head, char *dir);
 void free_list(list_t *head);
-<<<<<<< HEAD
-=======
 
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
 void help_all(void);
 void help_alias(void);
 void help_cd(void);
@@ -170,11 +157,6 @@ void help_env(void);
 void help_setenv(void);
 void help_unsetenv(void);
 void help_history(void);
-<<<<<<< HEAD
-int proc_file_commands(char *file_path, int *exe_ret);
-
-=======
 
 int proc_file_commands(char *file_path, int *exe_ret);
->>>>>>> 4b4a6f2d8a0c0d0d47455c20585112b1bd8d3d32
 #endif /* MAIN_H */
