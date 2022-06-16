@@ -15,7 +15,6 @@
 /* environment variables */
 extern char **environ;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);
-<<<<<<< HEAD
 
 /* handle built ins */
 int checker(char **cmd, char *buf);
@@ -39,7 +38,6 @@ char *find_path(void);
 
 /* helper function for efficient free */
 void free_buffers(char **buf);
-=======
 
 /* handle built ins */
 int checker(char **cmd, char *buf);
@@ -66,7 +64,6 @@ char *find_path(void);
 /* helper function for efficient free */
 void free_buffers(char **buf);
 
->>>>>>> dc2ec6c89e583d0d3c945414ec68d43e11cf3e31
 struct builtin
 {
 	char *env;
@@ -78,13 +75,10 @@ struct info
 	int final_exit;
 	int ln_count;
 } info;
-<<<<<<< HEAD
 struct flags
 
-=======
-
 struct flags
->>>>>>> dc2ec6c89e583d0d3c945414ec68d43e11cf3e31
+
 {
 	bool interactive;
 } flags;
