@@ -1,4 +1,4 @@
-#include "../holberton.h"
+#include "holberton.h"
 
 /**
   *tokenaization - split a sentence into multiple words.
@@ -47,4 +47,4 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-//TODO: Do the same with linked lists
+
